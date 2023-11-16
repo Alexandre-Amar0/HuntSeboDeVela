@@ -1,0 +1,167 @@
+/*============ FORMATAÇÃO GERAL ============*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+/*============ CANTIGA AGATHA CHRISTIE ============*/
+
+/*--- DESKTOP ---*/
+#agathaDesktopH1 {
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+#agathaDesktopP {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*--- MOBILE ---*/
+#agathaMobileH1 {
+    margin: 90px 20px 20px 20px;
+}
+
+#agathaMobileP {
+    margin: 35px 40px;
+    font-size: 16px;
+}
+
+
+/*============ GOOGLE MAPS ============*/
+
+/*--- MOBILE ---*/
+#mapsMobile {
+    margin: 8px;
+}
+
+
+/*============ PISTA ============*/
+
+/*--- GERAL ---*/
+#pista {
+    margin: 30px 0px 50px 0px;
+}
+
+/*--- DESKTOP ---*/
+#pistaDesktop {
+    font-size: 18px;
+}
+
+/*--- MOBILE ---*/
+#pistaMobile {
+    font-size: 20px;
+}
+
+
+/*============ AVISO DE REINÍCIO DA PÁGINA ============*/
+
+/*--- DESKTOP ---*/
+#avisoReloadDesktop {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    height: 150px;
+    border: 2px solid white;
+    margin: 5px;
+    animation: open 4s;
+    padding: 5px;
+}
+
+#avisoReloadDesktop h3 {
+    padding: 5px;
+}
+
+#avisoReloadDesktop p {
+    padding: 5px;
+}
+
+#avisoReloadDesktop h2 {
+    font-size: 35px;
+    font-family: 'DS-Digital', sans-serif;
+}
+
+#avisoReloadDesktop span {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/*--- MOBILE ---*/
+#avisoReloadMobile {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    z-index: 1;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+#avisoReloadMobile h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+#avisoReloadMobile p {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+#avisoReloadMobile h2 {
+    font-size: 28px;
+    font-family: 'DS-Digital', sans-serif;
+}
+
+#avisoReloadMobile span {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*============ CONFIGURAÇÕES DE MÍDIA ============*/
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .desktop {
+        display: none;
+    }
+    
+    .mobile {
+        display: block;
+    }
+}
+
+
+/*============ ANIMAÇÕES ============**/
+
+@keyframes open {
+    from {
+        opacity: 0;
+        transform: translate3d(80px, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
