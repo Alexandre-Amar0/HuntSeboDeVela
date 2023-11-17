@@ -16,13 +16,13 @@ body {
 /*--- DESKTOP ---*/
 #agathaDesktopH1 {
     margin-top: 25px;
-    margin-bottom: 10px;
-    font-size: 30px;
+    margin-bottom: 15px;
+    font-size: 32px;
 }
 
 #agathaDesktopP {
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 /*--- MOBILE ---*/
@@ -107,12 +107,11 @@ body {
     z-index: 1;
     background-color: black;
     border-bottom: 1px solid white;
-    margin: 10px;
 }
 
 #avisoReloadMobile h3 {
     font-size: 16px;
-    margin-bottom: 12px;
+    margin: 0px 5px 12px 5px;
 }
 
 #avisoReloadMobile p {
