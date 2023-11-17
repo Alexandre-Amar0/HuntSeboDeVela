@@ -38,6 +38,10 @@ body {
 
 /*============ GOOGLE MAPS ============*/
 
+#mapsDesktop {
+    margin-top: 30px;
+}
+
 /*--- MOBILE ---*/
 #mapsMobile {
     margin: 8px;
