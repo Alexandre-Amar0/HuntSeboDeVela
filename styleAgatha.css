@@ -16,6 +16,7 @@ body {
 /*--- DESKTOP ---*/
 #agathaDesktopH1 {
     margin-top: 25px;
+    margin-bottom: 10px;
     font-size: 30px;
 }
 
@@ -106,6 +107,7 @@ body {
     z-index: 1;
     background-color: black;
     border-bottom: 1px solid white;
+    margin: 10px;
 }
 
 #avisoReloadMobile h3 {
