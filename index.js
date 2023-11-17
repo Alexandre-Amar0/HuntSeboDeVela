@@ -5,7 +5,7 @@ const segundo = document.getElementById('secondP')
 /*const lancamento = "15 nov, 2023"*/
 
 function countDown(){
-    const dataLanc = new Date("November 16, 2023 21:07:00")
+    const dataLanc = new Date("November 16, 2023 21:15:00")
     const hoje = new Date()
     const segTotal = (dataLanc - hoje)/1000
     const finalDias = Math.floor(segTotal / 60 / 60 / 24)
